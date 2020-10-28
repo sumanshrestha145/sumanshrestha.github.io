@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Share&display=swap');
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#7c7c7c+0,000000+100 */
+    background: #7c7c7c;
+    /* Old browsers */
+    background: -moz-radial-gradient(center, ellipse cover, #7c7c7c 0%, #000000 100%);
+    /* FF3.6-15 */
+    background: -webkit-radial-gradient(center, ellipse cover, #7c7c7c 0%, #000000 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: radial-gradient(ellipse at center, #7c7c7c 0%, #000000 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#7c7c7c', endColorstr='#000000', GradientType=1);
+    /* IE6-9 fallback on horizontal gradient */
+    ;
+}
+/* Calculator Section */
+.calculator {
+    background-color: #353535;
+    width: 300px;
+    padding: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0px 6px #a1a1a1, 0px 8px 10px rgba(0, 0, 0, 0.75);
+}
+/* Result Section */
+.results {
+    background-color: #cecfac;
+    width: 90%;
+    margin: 8px 0px 20px 10px;
+    color: #3b3b32;
+    text-align: right;
+    line-height: 50px;
+    height: 50px;
+    font-size: 35px;
+    padding-right: 10px;
+    overflow: hidden;
+    font-family: 'Share', cursive;
+    box-shadow: inset 0px 0px 8px rgba(0, 0, 0, 0.5), inset 0px 2px 0px #a1a1a1;
+
+}
+ /* ul section */
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+ul li {
+    list-style: none;
+    background-color: #4e4e4e;
+    padding: 10px;
+    width: 15%;
+    float: left;
+    color: white;
+    margin: 5px;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 5px 0px #a5a5a5, 0px 2px 5px rgba(0, 0, 0, 0.5);
+
+}
+
+ul li:active {
+    position: relative;
+    top: 5px;
+    box-shadow: inset 0px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+ul li:nth-child(16) {
+    height: 75px;
+    line-height: 75px;
+}
+
+ul li:last-child {
+    margin-top: -48px;
+    width: 65%;
+}
+/* signature section */
+.signature {
+    color: white;
+    font-family: 'Share', cursive;
+    font-size: 0.75rem;
+    text-align: right;
+    /* border: 1px solid red; */
+    position: relative;
+    top: 4px;
+    right: 5px;
+    z-index: -1;
+}
